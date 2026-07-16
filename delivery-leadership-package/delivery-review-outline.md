@@ -8,20 +8,20 @@
 
 ## Slide 2 — What shipped
 
-- ![Evergreen Quotet](evergreen.png)
+![Evergreen Quotet](evergreen.png)
 - Merged PR: https://github.com/asc1-student07/evergreen-quote-delivery/pull/9
 - CI Run: https://github.com/asc1-student07/evergreen-quote-delivery/actions/runs/29501254204
 
 ## Slide 3 — Two key decisions
 
-## Context
+***Context***
 
 -Decision Tradeoff: Legal was delayed in getting signoff for posting testimonials
 
-- Options considered
+- **Options considered**
 
-- **Option A — Hide testimonials with d-none.** quick / still viewable in source
-- **Option B — Remove testimonials from html source.** no way for users to view / slow to restore
+- *Option A* — Hide testimonials with d-none: quick / still viewable in source
+- *Option B* — Remove testimonials from html source: no way for users to view / slow to restore
 
 > Team chose to remove source altogether, since savvy web users would still be able to see the source with a simple "view source" in any browser.
 
@@ -37,10 +37,10 @@ Top risk we tracked:
 | R4 | testimonials are legally allowed to be displayed | Marc | H | L | Decision on whether to hide or remove content from main page | no decision by 10am Day 3 |
 | R5 | CI/CD Pipeline or deployent fails | Marc | L | M | Use automated build/test checks | failed smoke testing |
 
-- Inject #1 (Tue): Legal Hold on Testimonials, Addition of Compare Plans
+**Inject #1 (Tue): Legal Hold on Testimonials, Addition of Compare Plans**
 > Was able to easily adjust testimonials to protect Evergreen while legal activities complete
 > Created project cards for compare plans, Since page content existed, we didn't see this as an issue to add to the site.  Timeline would be minimally affected. End results was that we didn't ship this
-- Inject #2 (Wed): Premium Calculation Error
+**Inject #2 (Wed): Premium Calculation Error**
 > Users reported massive calc errors for renters
 > troubleshooting found missing renters javascript file, which corrected issues
 
