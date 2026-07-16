@@ -1,6 +1,4 @@
-# Decision Memo — _short title here_
-
-> Copy to `delivery-leadership-package/decision-memo.md`. Target length: ~250 words. Write for a non-technical reader. Name the options you **rejected**, not just the one you picked.
+# Decision Memo — Evergreen Insurance Quote
 
 **Date:** 7/14/26
 **Author:** Marc Gagne

@@ -1,7 +1,5 @@
 # Delivery Goal — Evergreen Quote
 
-> Copy this file into `delivery-leadership-package/delivery-goal.md`. One sentence. Read it back to yourself. Then to your pair. Then to someone who wasn't in the room. If they can repeat it, it's good.
-
 ## Goal
 
 > By Thursday EOD, an assembled, themed, responsive Evergreen Quote app with the wired quote calculator is merged to main via a reviewed PR with a green CI run.
