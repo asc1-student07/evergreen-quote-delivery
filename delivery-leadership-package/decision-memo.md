@@ -26,10 +26,3 @@ Legal protection
 
 If Legal got the ok to post before day 4, this would be moot.
 
-## Github Copilot change
-
-Using the following prompt:
-
->in the testimonials section of this html file, can you auto generate two more entries that follow the tone and length of the three provided?  Also, make sure the additional entries retain the same responsive design as what is there now.  If you have any questions, ask me one at a time and don't build anything based on assumption.
-
-Copilot, in one pass, created two more on-tone testimonial cards that matched the style of what was there and kept the responsivess of the site. In testing, no issue where found
