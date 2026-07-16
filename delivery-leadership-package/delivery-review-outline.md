@@ -25,7 +25,8 @@
 
 ## Slide 4 — Risks & injects
 
-- Top risk we tracked: 
+Top risk we tracked:
+
 | # | Risk | Owner | Likelihood (L/M/H) | Impact (L/M/H) | Mitigation | Trigger to escalate |
 |---|---|---|---|---|---|---|
 | R1 | css conflicts with Bootstrap | Marc | M | M | test all sizes regularly, order html correctly | layout still broken end of Day 2 |
@@ -33,6 +34,7 @@
 | R3 | branding is off | Marc | M | L | visual inspection | issues exist end of day 2 |
 | R4 | testimonials are legally allowed to be displayed | Marc | H | L | Decision on whether to hide or remove content from main page | no decision by 10am Day 3 |
 | R5 | CI/CD Pipeline or deployent fails | Marc | L | M | Use automated build/test checks | failed smoke testing |
+
 - Inject #1 (Tue): Legal Hold on Testimonials, Addition of Compare Plans
 > Was able to easily adjust testimonials to protect Evergreen while legal activities complete
 > Created project cards for compare plans, Since page content existed, we didn't see this as an issue to add to the site.  Timeline would be minimally affected. End results was that we didn't ship this
