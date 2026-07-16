@@ -2,7 +2,7 @@
 
 ## Slide 1 — Delivery goal & did we hit it?
 
-- Goal (one sentence): By Thursday EOD, an assembled, themed, responsive Evergreen Quote app with the wired quote calculator is merged to main via a reviewed PR with a green CI run.
+- Goal: By Thursday EOD, an assembled, themed, responsive Evergreen Quote app with the wired quote calculator is merged to main via a reviewed PR with a green CI run.
 - Hit? X Yes  ☐ Partially  ☐ No
 - Site is built, with ability to dynamic resize for any device.  Functionality to provide quotes passed all tests, and PR merged without issues during CI run.
 
@@ -20,8 +20,10 @@
 
 - Options considered
 
->**Option A — Hide testimonials with d-none.** quick / still viewable in source
->**Option B — Remove testimonials from html source.** no way for users to view / slow to restore
+- **Option A — Hide testimonials with d-none.** quick / still viewable in source
+- **Option B — Remove testimonials from html source.** no way for users to view / slow to restore
+
+> Team chose to remove source altogether, since savvy web users would still be able to see the source with a simple "view source" in any browser.
 
 ## Slide 4 — Risks & injects
 
